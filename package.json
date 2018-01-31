@@ -1,10 +1,14 @@
 {
   "name": "jwt-keysource",
   "version": "0.1.0",
-  "description": "Tool for fetching signing keys to verify JWTs",
+  "description": "A library to provide keys for JWT verification.",
   "main": "lib/index.js",
   "author": "Antoine Beauvais-Lacasse <antoine.beaulac@gmail.com>",
   "license": "ISC",
+  "keywords": [
+    "JWT"
+  ],
+  "repository": "https://github.com/beaulac/node-jwt-keysource.git",
   "dependencies": {
     "debug": "^3.1.0",
     "request": "^2.83.0"
