@@ -1,0 +1,16 @@
+{
+  "name": "jwt-keysource",
+  "version": "0.1.0",
+  "description": "Tool for fetching signing keys to verify JWTs",
+  "main": "lib/index.js",
+  "author": "Antoine Beauvais-Lacasse <antoine.beaulac@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^0.0.30",
+    "@types/request": "^2.47.0"
+  }
+}
